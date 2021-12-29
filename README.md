@@ -13,14 +13,14 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 
 ## Start Api
 
-gerar arquivos: <br/>
+1) gerar arquivos: <br/>
 
 ```
 $ composer update 
 ```
- configurar .env para a base <br/>
+2) configure o .env para a base <br/>
 
- gerar key: <br/>
+3) gerar key: <br/>
 ```
 $ php artisan jwt:secret
 ```
