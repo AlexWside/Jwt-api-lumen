@@ -21,6 +21,7 @@ $ composer update
 2) configure o .env para a base <br/>
 
 3) gerar key: <br/>
+
 ```
 $ php artisan jwt:secret
 ```
