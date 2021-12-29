@@ -11,14 +11,13 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-## Contributing
+## Start Api
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- gerar arquivos 
+$ composer update
 
-## Security Vulnerabilities
+- configurar .env para a base 
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+- gerar key
+$ php artisan jwt:secret
 
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
