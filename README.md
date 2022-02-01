@@ -25,3 +25,9 @@ $ composer update
 ```
 $ php artisan jwt:secret
 ```
+
+4) levantar server: <br/>
+
+```
+php -S localhost:8000 -t public
+```
